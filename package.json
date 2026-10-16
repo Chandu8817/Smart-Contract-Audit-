@@ -10,6 +10,7 @@
     "test:presale": "hardhat test test/presale/**/*.test.js --grep ''",
     "test:staking": "hardhat test test/staking/**/*.test.js --grep ''",
     "test:governance": "hardhat test test/governance/**/*.test.js --grep ''",
+    "test:vesting": "hardhat test test/vesting/VittagemsVestingVault.test.js",
 
     "test:erc20:main": "hardhat test test/erc20/Vittagems.test.js",
     "test:erc20:security": "hardhat test test/erc20/Vittagems.security.test.js",
